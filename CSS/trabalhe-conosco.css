@@ -53,6 +53,12 @@ h1 {
     padding: 10px 0px 10px 0px;
     margin-top: 10px;
 }
+.envio:hover{
+    background-color: #FFFFFF;
+    color: #C2185B;
+    box-shadow: 5px 5px #7c7c7c;
+    transition: all 3s;
+}
 
 .btn-arquivo{
     display: none;
@@ -72,4 +78,16 @@ h1 {
 .margin-check {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.faixa{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: sticky;
+    background-color: #C2185B;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
 }

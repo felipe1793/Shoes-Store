@@ -41,7 +41,6 @@ main h1 {
     justify-content: space-around;
     margin: 50px;
     height: 500px;
-    /* background: #C2185B; */
 }
 
 .caixa{
@@ -108,4 +107,12 @@ main h1 {
 .listarodape {
     list-style: none;
     color: #FFFFFF;
+}
+
+.listarodape li a:link{
+    text-decoration: none;
+}
+.listarodape li a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
 }
